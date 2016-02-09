@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/actual"
+            android:title="Compra y venta de dolares" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/calendar"
+            android:title="Precio del dolar al mes" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/tendencia"
+            android:title="Cuadros de tendencias en mes" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/grupo"
+            android:title="Tus contactos" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Compartir" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Enviar" />
+        </menu>
+    </item>
+
+</menu>
